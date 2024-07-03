@@ -1,0 +1,24 @@
+22:51:55 **** Incremental Build of configuration Release for project STM32F746_DISCO_PROJECT ****
+make -j11 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F746xx -c -I"/Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc" -I../Core/Inc -I"/Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/Drivers/WM8994" -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/Core_A/Include/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/PrivateInclude/ -I../Middlewares/Third_Party/ARM_CMSIS/CMSIS/DSP/Include/ -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:71:21: warning: variable 'statusRx' set but not used [-Wunused-but-set-variable]
+   71 |   HAL_StatusTypeDef statusRx;
+      |                     ^~~~~~~~
+../Core/Src/main.c:70:21: warning: variable 'statusTx' set but not used [-Wunused-but-set-variable]
+   70 |   HAL_StatusTypeDef statusTx;
+      |                     ^~~~~~~~
+arm-none-eabi-gcc -o "STM32F746_DISCO_PROJECT.elf" @"objects.list"   -mcpu=cortex-m7 -T"/Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746_DISCO_PROJECT.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F746_DISCO_PROJECT.elf
+ 
+arm-none-eabi-size  STM32F746_DISCO_PROJECT.elf 
+arm-none-eabi-objdump -h -S STM32F746_DISCO_PROJECT.elf  > "STM32F746_DISCO_PROJECT.list"
+   text	   data	    bss	    dec	    hex	filename
+  27360	    208	   5616	  33184	   81a0	STM32F746_DISCO_PROJECT.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F746_DISCO_PROJECT.list
+ 
+
+22:51:55 Build Finished. 0 errors, 2 warnings. (took 379ms)
+
