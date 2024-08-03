@@ -65,6 +65,8 @@ int main(void)
   MX_USB_HOST_Init();
 
   //Init CODEC
+  WM8994_Driver.SetFrequency(wm8994_Obj_ptr, WM8994_FREQUENCY_48K); //set to 48k sampling frequency
+  WM8994_Driver.SetResolution(wm8994_Obj_ptr, _24_BIT_RESOLUTION); //set to 24-bit
   WM8994_Driver.Init(wm8994_Obj_ptr, wm8994_Init_ptr); //not sure if this is right, but it's a start!
 
 

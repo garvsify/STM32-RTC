@@ -33,10 +33,10 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_hcd.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
  ../USB_HOST/App/usb_host.h \
- /Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994.h \
- /Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994_reg.h \
+ /Users/jamesgarvey/Documents/Git/STM32F746G-DISCO/STM32F746_DISCO_PROJECT_WORKSPACE/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994.h \
+ /Users/jamesgarvey/Documents/Git/STM32F746G-DISCO/STM32F746_DISCO_PROJECT_WORKSPACE/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994_reg.h \
  ../Drivers/CMSIS/Include/cmsis_compiler.h \
- /Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994_reg.h
+ /Users/jamesgarvey/Documents/Git/STM32F746G-DISCO/STM32F746_DISCO_PROJECT_WORKSPACE/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994_reg.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Core/Inc/stm32f7xx_hal_conf.h:
@@ -72,7 +72,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_hcd.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h:
 ../USB_HOST/App/usb_host.h:
-/Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994.h:
-/Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994_reg.h:
+/Users/jamesgarvey/Documents/Git/STM32F746G-DISCO/STM32F746_DISCO_PROJECT_WORKSPACE/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994.h:
+/Users/jamesgarvey/Documents/Git/STM32F746G-DISCO/STM32F746_DISCO_PROJECT_WORKSPACE/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994_reg.h:
 ../Drivers/CMSIS/Include/cmsis_compiler.h:
-/Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994_reg.h:
+/Users/jamesgarvey/Documents/Git/STM32F746G-DISCO/STM32F746_DISCO_PROJECT_WORKSPACE/STM32F746_DISCO_PROJECT/Drivers/WM8994/Inc/wm8994_reg.h:

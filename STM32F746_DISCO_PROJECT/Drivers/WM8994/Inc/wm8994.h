@@ -23,6 +23,7 @@
 #define WM8994_H
 
 /* Includes ------------------------------------------------------------------*/
+//#include "wm8994_reg.h"
 #include "wm8994_reg.h"
 #include <stddef.h>
 

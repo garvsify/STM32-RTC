@@ -65,8 +65,8 @@ all: main-build
 main-build: STM32F746_DISCO_PROJECT.elf secondary-outputs
 
 # Tool invocations
-STM32F746_DISCO_PROJECT.elf STM32F746_DISCO_PROJECT.map: $(OBJS) $(USER_OBJS) /Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/STM32F746NGHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32F746_DISCO_PROJECT.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/Users/jamesgarvey/STM32CubeIDE/STM32F746G-DSICO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746_DISCO_PROJECT.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32F746_DISCO_PROJECT.elf STM32F746_DISCO_PROJECT.map: $(OBJS) $(USER_OBJS) /Users/jamesgarvey/Documents/Git/STM32F746G-DISCO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/STM32F746NGHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32F746_DISCO_PROJECT.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/Users/jamesgarvey/Documents/Git/STM32F746G-DISCO/STM32F746_DISCO_PROJECT/STM32F746_DISCO_PROJECT/STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F746_DISCO_PROJECT.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
