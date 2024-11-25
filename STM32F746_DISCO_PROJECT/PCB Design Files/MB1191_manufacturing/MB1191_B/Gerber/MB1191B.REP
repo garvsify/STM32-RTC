@@ -1,0 +1,64 @@
+--------------------------------------------------------------------------------
+                              Batch Process Report
+
+                     CADSTAR Design Editor Version 14.0.0.3
+
+Design:     C:\_DATA\AFFAIRES\STM\MB1191\MB1191B-DOSSIER\CADSTAR\MB1191B2-V14.pcb
+
+Design Title:
+design
+
+Units:            Millimetres
+Decimal Places:   3
+
+Date:      vendredi 17 avril 2015
+Time:      15:21
+
+--------------------------------------------------------------------------------
+
+Results Summary
+---------------
+
+Totals:- Errors: 0 - Warnings: 0.
+
+Row 1 completed successfully.
+Row 2 completed successfully.
+
+Results
+-------
+
+************************************ ROW 1 ************************************
+
+
+ [<None>] :: [N.C. Drill] :: [DRILL DRAWING.col] :: [NCDrill File] :: [excellon-A4V.usr] :: [EXCELLON.sel] :: [MB1191-B-M.EXC] 
+
+ Drill No.  Tool No.      Size    Length     Count   File Name
+----------------------------------------------------------------------
+         0         1     0.150     0.000      1075
+         1         2     0.650     0.200         4
+         2         3     1.000     0.000        15
+         3         4     1.000     0.600         1
+         4         5     1.990     0.000         4
+         5         6     3.250     0.000         6
+----------------------------------------------------------------------
+                                   TOTAL      1105
+
+Row 1 completed successfully.
+
+************************************ ROW 2 ************************************
+
+
+ [<None>] :: [N.C. Drill] :: [DRILL DRAWING.col] :: [NCDrill File] :: [excellon-A4V.usr] :: [EXCELLON-NM.sel] :: [MB1191-B-NM.EXC] 
+
+ Drill No.  Tool No.      Size    Length     Count   File Name
+----------------------------------------------------------------------
+         0         1     0.800     0.700         4
+         1         2     1.200     0.000         2
+----------------------------------------------------------------------
+                                   TOTAL         6
+
+Row 2 completed successfully.
+
+--------------------------------------------------------------------------------
+                                 End of report
+--------------------------------------------------------------------------------

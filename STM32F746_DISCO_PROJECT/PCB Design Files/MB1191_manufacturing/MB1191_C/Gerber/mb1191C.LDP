@@ -1,0 +1,5 @@
+Layer Pairs Export File for PCB: C:\01_working_folder\012-Support_MB1191_Na\Mb1191_revue\MB1191-B05_To_C01_SVN\MB1191-B05_To_C01_SVN\01-Design_Source\Altium_Designer\MB1191.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=mb1191c-roundholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl
+LayersSetName=Top_Bot_Plated_Slot_Holes|DrillFile=mb1191c-slotholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl
+LayersSetName=Top_Bot_Plated_Rect_Holes|DrillFile=mb1191c-rectholes-plated.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=mb1191c-roundholes-nonplated.txt|DrillLayers=gtl,g1,g2,g3,g4,g5,g6,gbl
